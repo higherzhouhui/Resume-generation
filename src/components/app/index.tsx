@@ -39,7 +39,7 @@ export default function App({}: Props) {
     >
       <div className="flex-1 relative">
         <div className="header flex justify-between">
-          <h1 className="logo">在线简历生成器</h1>
+          <h1 className="logo">在线简历修改及生成</h1>
           <div className="space-x-2">
             <PDFDownloadLink
               document={<Preview state={state} />}
@@ -58,9 +58,6 @@ export default function App({}: Props) {
           </div>
         </div>
         <Editor />
-        <div className="tip">
-          关注公众号&quot;JS酷&quot;，回复&quot;简历&quot;获取源码
-        </div>
       </div>
       <div className="flex-1 bg-gray-800 flex justify-center items-center">
         {loading ? (

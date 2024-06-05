@@ -29,7 +29,7 @@ export const config = {
     },
     {
       type: "textarea",
-      displayName: "简介",
+      displayName: "简介/求职岗位",
       attributeId: "about",
     },
     {

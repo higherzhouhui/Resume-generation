@@ -11,7 +11,7 @@ interface Props {
     mobile: string;
     github: string;
     home: string;
-    workExpYear?: number;
+    workExpYear: number;
     workPlace: string;
     positionTitle: string;
   };
@@ -65,7 +65,7 @@ export default function Profile({ profile }: Props): ReactElement {
       {profile.workExpYear ? (
         <View style={s.profile_item}>
           <Icon d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          <Text>工作经验：{profile.workExpYear}</Text>
+          <Text>工作经验：{profile.workExpYear}年</Text>
         </View>
       ) : null}
       {profile.positionTitle ? (
