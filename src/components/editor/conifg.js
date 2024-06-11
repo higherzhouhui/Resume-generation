@@ -168,6 +168,13 @@ export const config = {
       attributeId: "time",
     },
   ],
+  evaluateList: [
+    {
+      type: "textarea",
+      displayName: "评价",
+      attributeId: "info",
+    },
+  ],
 };
 
 export const themes = [

@@ -57,6 +57,10 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
   },
+  wrap: {
+    display: "flex",
+    flexWrap: "wrap",
+  },
   text: {
     flex: 1,
   },

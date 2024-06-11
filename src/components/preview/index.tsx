@@ -6,6 +6,7 @@ import Avatar from "./avatar";
 import Skills from "./skills";
 import Educations from "./education";
 import AwardList from "./awardList";
+import EvaluateList from "./evaluateList";
 import WorkExpList from "./workExpList";
 import ProjectList from "./projectList";
 import { State } from "../../context/resumeContext";
@@ -29,6 +30,7 @@ export default function Preview({ state }: Props): ReactElement {
           <Skills data={state.skillList} />
           <Educations data={state.educationList} />
           <AwardList data={state.awardList} />
+          <EvaluateList data={state.evaluateList} />
         </View>
         <View style={s.right_section}>
           <WorkExpList data={state.workExpList} theme={theme} />
