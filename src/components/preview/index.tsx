@@ -29,8 +29,12 @@ export default function Preview({ state }: Props): ReactElement {
           <Profile profile={state.profile} />
           <Skills data={state.skillList} />
           <Educations data={state.educationList} />
-          <AwardList data={state.awardList} />
-          <EvaluateList data={state.evaluateList} />
+          {
+            state.awardList.length ? <AwardList data={state.awardList} /> : null
+          }
+          {
+            state.evaluateList.length ? <EvaluateList data={state.evaluateList} /> : null
+          }
         </View>
         <View style={s.right_section}>
           <WorkExpList data={state.workExpList} theme={theme} />
