@@ -20,23 +20,28 @@ export const initialState = {
   },
   skillList: [
     {
-      name: "HTML / CSS",
-      desc: "",
+      name: "React",
+      desc: "丰富的React及其配套框架Next/Ant-design/TailWindCss/Mui使用经验",
       level: 5,
     },
     {
-      name: "TypeScript / JavaScript",
-      desc: "熟练 JavaScript，丰富的 ts 项目经验",
+      name: "Vue2.0 / Vue3.0",
+      desc: "熟练使用Vue及其配套框架Nust/ElementUI/ElementPlus",
+      level: 5,
+    },
+    {
+      name: "Node / Express / Nest",
+      desc: "多个构建高性能后端服务经验",
       level: 4,
     },
     {
-      name: "Express/Koa",
-      desc: "丰富的 NodeJS 实践以及开源经验",
-      level: 5,
+      name: "Uniapp / 微信小程序 / Electron / Ionic / PWA",
+      desc: "跨端开发经验丰富，Android/IOS打包以及微信小程序上线流程清晰",
+      level: 4,
     },
     {
-      name: "React / 前端工程化",
-      desc: "大型前端项目经验以及组件库开发经验",
+      name: "Web3 / Etherjs",
+      desc: "参与多个区块链项目，对于Metamask/TP/IM等钱包的调用合约交互以及交易追踪操作熟练",
       level: 4,
     },
   ],
